@@ -1,0 +1,82 @@
+.font-1-gg {
+  font: 600 6.4rem/1.125 'Poppins', sans-serif;
+}
+.font-1-mm {
+  font: 600 4rem/1.2 'Poppins', sans-serif;
+}
+.font-2-m24 {
+  font: 400 2.4rem/1.5 'Inter', sans-serif;
+}
+.font-2-m24-b {
+  font: 600 2.4rem/1.5 'Inter', sans-serif;
+}
+.font-1-m24 {
+  font: 500 2.4rem/1.5 'Poppins', sans-serif;
+}
+.font-2-pm20 {
+  font: 500 2rem/1.8 'Lato', sans-serif;
+}
+.font-2-pp16 {
+  font: 500 1.6rem/1.5 'Inter';
+}
+.font-1-pm18 {
+  font: 400 1.8rem/1.125 'Poppins', sans-serif;
+}
+.font-2-pm18 {
+  font: 400 1.8rem/1.4 'Inter', sans-serif;
+}
+.font-2-pm26 {
+  font: 400 2.6rem/1.4 'Inter', sans-serif;
+}
+.font-1-m {
+  font: 600 3.2rem/1.4 'Poppins', sans-serif;
+}
+.font-2-m {
+  font: 600 3.2rem/1.4 'Inter', sans-serif;
+}
+.font-1-pp {
+  font: 600 1.4rem/1.4 'Poppins';
+}
+.font-2-pp {
+  font: 500 1.4rem/1.4 'Inter';
+}
+.font-2-g40 {
+  font: 500 4rem/1.2 'Inter', sans-serif;
+}
+.font-2-pp12 {
+  font: 500 1.2rem/1.6 'Inter';
+}
+.font-1-pp12 {
+  font: 500 1.2rem/1.6 'Poppins';
+}
+.font-2-m28 {
+  font: 400 2.4rem/1.2 'Inter';
+}
+@media (max-width: 1000px) {
+  .font-1-m {
+    font: 600 2.8rem/1.15 "Poppins";
+  }
+}
+.font-1-pm20 {
+  font: 500 2rem/1.2 'Poppins', sans-serif;
+}
+
+.font-2-m26 {
+  font: 400 2.6rem/1.4 'Inter', sans-serif;
+}
+.font-1-m26 {
+  font: 600 2.6rem/1.4 'Poppins',sans-serif;
+}
+/* Responsivo */
+
+@media (max-width: 1200px) {
+  .font-1-gg {
+    font-size: 4.8rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .font-1-gg {
+    font-size: 4rem;
+  }
+}

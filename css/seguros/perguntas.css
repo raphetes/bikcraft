@@ -1,0 +1,57 @@
+.perguntas {
+  padding-top: 12rem;
+  padding-bottom: 12rem;
+}
+.perguntas h2 {
+  margin-bottom: 6rem;
+}
+.perguntas dl > div {
+  padding: 2rem;
+  border-radius: .5rem;
+}
+.perguntas dl > div:nth-child(odd) {
+  background: var(--cor-1);
+}
+.perguntas dt {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+}
+.perguntas dt::before {
+  content: '';
+  width: 1.2rem;
+  height: .8rem;
+  background: var(--cor-p1);
+  display: inline-block;
+  margin-right: .8rem;
+}
+.perguntas dt::after {
+  content: '';
+  width: 1.4rem;
+  height: .6rem;
+  background: url(../../img/icones/seta.svg);
+  display: inline-block;
+  transition: transform 0.2s;
+}
+.perguntas dt:hover {
+  cursor: pointer;
+}
+.perguntas dt:hover::after {
+  transform: rotate(180deg);
+}
+.perguntas dd {
+  padding-left: 2rem;
+  padding-top: 1.2rem;
+  max-width: 80ch;
+}
+
+@media (max-width: 800px) {
+  .perguntas {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+  .perguntas h2 {
+    margin-bottom: 4rem;
+  }
+}
+
