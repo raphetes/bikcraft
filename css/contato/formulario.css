@@ -25,6 +25,10 @@
   border: 1px solid var(--cor-p1);
   box-shadow: 0 0 0 2px #a38ed9;
 }
+.form textarea {
+  max-width: 100%;
+  max-height: 36rem;
+}
 .col-2 {
   grid-column: 1/-1;
 }

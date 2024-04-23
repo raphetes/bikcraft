@@ -2,11 +2,11 @@
   background: linear-gradient(var(--cor-11) 60rem, var(--cor-1) 0px);
 }
 .contato-dados {
-  background: var(--cor-12);
+  background: var(--cor-12) url(../../img/dec/bottom-left.svg) no-repeat bottom 2rem left 2rem;
   border-radius: .5rem 0 0 .5rem;
 }
 .contato-formulario {
-  background: var(--cor-w);
+  background: var(--cor-w) url(../../img/dec/bottom-right-p.svg) no-repeat bottom 2rem right 2rem;
   border-radius: 0 .5rem .5rem 0;
 }
 .contato-formulario,
@@ -67,6 +67,7 @@
   }
   .contato-dados,
   .contato-formulario {
+    background: var(--cor-12);
     padding: 2rem;
   }
   .contato-dados {

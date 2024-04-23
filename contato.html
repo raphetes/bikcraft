@@ -6,17 +6,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Termos e Condições da Bikcraft">
   <title>Termos e Condições | Bikcraft</title>
-  <link rel="stylesheet" href="./css/style.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preload" href="./css/style.min.css" as="style">
+  <link rel="stylesheet" href="./css/style.min.css">  <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,700&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,700&display=swap&family=Poppins:ital,wght@0,400;0,500;0,600&display=swap&family=Inter:wght@100..900&display=swap" rel="stylesheet">
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+<script>document.documentElement.classList.add('js')</script>
 </head>
 <body id="contato">
 
   <header class="header-bg">
     <div class="header container">
-      <a href="./"><img src="./img/bikcraft.svg" alt="Bikcraft"></a>
+      <a href="./"><img src="./img/bikcraft.svg" width="136" height="32" alt="Bikcraft"></a>
       <nav aria-label="primária">
         <ul class="header-menu font-1-pm18 cor-w">
           <li><a href="./bicicletas.html">Bicicletas</a></li>
@@ -49,9 +51,9 @@
           <a href="tel:+552199999999">+55 21 9999-9999</a>
         </address>
         <div class="contato-redes">
-          <a href="https://www.instagram.com/raphitos_"><img src="./img/redes/instagram.svg" alt="Instagram"></a>
-            <a href="https://www.facebook.com"><img src="./img/redes/facebook.svg" alt="Facebook"></a>
-            <a href="https://www.youtube.com"><img src="./img/redes/youtube.svg" alt="Youtube"></a>
+          <a href="https://www.instagram.com/raphitos_"><img src="./img/redes/instagram.svg" width="32" height="32" alt="Instagram"></a>
+            <a href="https://www.facebook.com"><img src="./img/redes/facebook.svg" width="32" height="32" alt="Facebook"></a>
+            <a href="https://www.youtube.com"><img src="./img/redes/youtube.svg" width="32" height="32" alt="Youtube"></a>
         </div>
       </section>
       <section aria-label="Formulário" class="contato-formulario">
@@ -62,11 +64,11 @@
           </div>
           <div>
             <label for="telefone">Telefone</label>
-            <input type="text" id="telefone" placeholder="(21) 9999-9999" name="Telefone">
+            <input type="text" id="telefone" placeholder="(21) 9999-9999" name="telefone">
           </div>
           <div class="col-2">
             <label for="email">Email</label>
-            <input type="text" id="email" placeholder="email@email.com" name="email">
+            <input type="email" id="email" placeholder="email@email.com" name="email" autocomplete="email">
           </div>
           <div class="col-2">
             <label for="mensagem">Mensagem</label>
@@ -81,7 +83,7 @@
       <h2 class="font-1-gg cor-12">nossas lojas<span class="cor-p1">.</span></h2>
 
       <div class="lojas-item">
-        <img src="./img/lojas/rj.jpg" alt="mapa marcando o endereço da loja no Rio de Janeiro">
+        <img src="./img/lojas/rj.jpg" width="560" height="260" alt="mapa marcando o endereço da loja no Rio de Janeiro">
         <div class="lojas-conteudo">
           <h3 class="cor-12 font-2-g40">Rio de Janeiro</h3>
           <div class="lojas-dados cor-6 font-2-pm20">
@@ -92,12 +94,12 @@
             <a href="mailto:rio@bikcraft.com">rio@bikcraft.com</a>
             <a href="tel:+552199999999">21 9999-9999</a>
           </div>
-          <p class="lojas-tempo"><img src="./img/icones/horario.svg" alt="">08-18h de seg à dom</p>
+          <p class="lojas-tempo"><img src="./img/icones/horario.svg" width="20" height="20" alt="">08-18h de seg à dom</p>
         </div>
       </div>
 
       <div class="lojas-item">
-        <img src="./img/lojas/sp.jpg" alt="mapa marcando o endereço da loja em São Paulo">
+        <img src="./img/lojas/sp.jpg" width="560" height="260" alt="mapa marcando o endereço da loja em São Paulo">
         <div class="lojas-conteudo">
           <h3 class="cor-12 font-2-g40">São Paulo</h3>
           <div class="lojas-dados cor-6 font-2-pm20">
@@ -108,7 +110,7 @@
             <a href="mailto:sp@bikcraft.com">sp@bikcraft.com</a>
             <a href="tel:+551199999999">11 9999-9999</a>
           </div>
-          <p class="lojas-tempo"><img src="./img/icones/horario.svg" alt="">08-18h de seg à dom</p>
+          <p class="lojas-tempo"><img src="./img/icones/horario.svg" width="20" height="20" alt="">08-18h de seg à dom</p>
         </div>
       </div>
 
@@ -118,7 +120,7 @@
 
   <footer class="footer-bg">
     <div class="footer container">
-      <img src="./img/bikcraft.svg" alt="">
+      <img src="./img/bikcraft.svg" width="136" height="32" alt="">
       <div class="footer-contato">
         <h3 class="font-1-m24 cor-w">Contato</h3>
         <ul class="cor-6 font-2-pm20">
@@ -127,9 +129,9 @@
           <li>Rua Ali Perto, 42 - Botafoto</li>
           <li>Rio de Janeiro - RJ</li>
           <div class="footer-redes">
-            <a href="https://www.instagram.com/raphitos_"><img src="./img/redes/instagram-w.svg" alt="Instagram"></a>
-            <a href="https://www.facebook.com"><img src="./img/redes/facebook-w.svg" alt="Facebook"></a>
-            <a href="https://www.youtube.com"><img src="./img/redes/youtube-w.svg" alt="Youtube"></a>
+            <a href="https://www.instagram.com/raphitos_"><img src="./img/redes/instagram-w.svg" width="32" height="32" alt="Instagram"></a>
+            <a href="https://www.facebook.com"><img src="./img/redes/facebook-w.svg" width="32" height="32" alt="Facebook"></a>
+            <a href="https://www.youtube.com"><img src="./img/redes/youtube-w.svg" width="32" height="32" alt="Youtube"></a>
           </div>
         </ul>
       </div>
@@ -145,5 +147,7 @@
       <p class="font-2-pp cor-6 footer-copyright">Bikcraft © Alguns Direitos Reservados.</p>
     </div>
   </footer>
+  <script src="./js/formulario.js"></script>
+<script src="./js/script.js"></script>
 </body>
 </html>

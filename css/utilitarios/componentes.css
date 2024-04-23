@@ -36,6 +36,10 @@
   background: var(--cor-11);
 }
 
+.titulo {
+  background: url(../../img/dec/top-right.svg) no-repeat top right 2rem;
+}
+
 .titulo p {
   margin-bottom: .4rem;
   text-transform: uppercase;

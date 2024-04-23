@@ -10,6 +10,7 @@
 @import './utilitarios/cores.css';
 @import './utilitarios/componentes.css';
 @import './utilitarios/formularios.css';
+@import './utilitarios/animacao.css';
 
 
 /* Home */
@@ -44,3 +45,7 @@
 
 @import './bicicleta/bicicleta.css';
 @import './bicicleta/seguro.css';
+
+/* Orçamento */
+
+@import './orcamento/orcamento.css';
