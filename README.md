@@ -33,7 +33,7 @@ Projeto realizado com a finalidade de aperfeiçoar habilidades com UI Design, Fi
 
 ## 🔖 Layout
 
-Você pode visualizar o layout do projeto através <a href="https://www.figma.com/design/CrCv9vetJeMKiRBJnbPTqr/bikcraft?node-id=0-1&p=f&t=dJfu1vZmgebiCWJe-0" style="color: #517ac8;" target="_blank">desse link</a>. É necessário ter conta no <a href="https://figma.com" style="color: #517ac8;" target="_blank">Figma</a> para acessá-lo.
+Você pode visualizar o layout do projeto através <a href="https://www.figma.com/design/CrCv9vetJeMKiRBJnbPTqr/bikcraft?node-id=0-1&p=f&t=dJfu1vZmgebiCWJe-0" style="color: #517ac8;" target="_blank">desse link</a>.
 
 ---
 ## 📕 Licença
